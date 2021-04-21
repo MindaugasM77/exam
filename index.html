@@ -5,10 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Exam</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="navigation">
-      <p>
+    <script src="./js/app.js"></script>
+
+      <!-- Navigation -->
+      <div class="navigation">
+          <p>
         Šiaurės pusrutulyje kalendorine vasara laikomi birželio, liepos ir
         rugpjūčio mėnesiai. Astronominė vasara prasideda apie birželio 21 dieną
         (vasaros saulėgrįžos dieną), baigiasi apie rugsėjo 23 d. (rudens
@@ -17,28 +26,17 @@
         yra vasaros saulėgrįžos diena) iki kovo 20 (arba 21) d. (ten tai yra
         rudens lygiadienio diena).
       </p>
-    </div>
-    <div class="picture">
-      <img src="./images/Summer-beach-image.jpg" alt="picture" />
-      <h1 class="picture-text">Vasara</h1>
-    </div>
-    <div class="container-laikrodis">
-      <h1 id="headline">Iki vasaros liko:</h1>
-      <div id="countdown">
-        <ul>
-          <li><span id="days"></span>Dienos</li>
-          <li><span id="hours"></span>Valandos</li>
-          <li><span id="minutes"></span>Minutės</li>
-          <li><span id="seconds"></span>Sekundės</li>
-        </ul>
-      </div>
-      <div class="message">
-        <div id="content">
-          <span class="emoji">🥳</span>
-          <span class="emoji">🎉</span>
-          <span class="emoji">🎂</span>
         </div>
       </div>
-    </div>
+
+      <!-- Hero content -->
+      <div class="hero-content">
+        <img src="./images/Summer-beach-image.jpg" alt="Hero" />
+        <h2 class="hero-text">Iki vasaros pradžios liko:</h2>
+          <li><span id="days"></span> Dienų</li>
+          <li><span id="hours"></span> Valandos</li>
+          <li><span id="minutes"></span> Minutės</li>
+          <li><span id="seconds"></span> Sekundės</li>
+      </div>
   </body>
 </html>
